@@ -69,8 +69,8 @@ export default function DonationsPage() {
         }}
       >
         <HeroWithSideImages
-          leftImage="/donations/left.jpg"
-          rightImage="/donations/right.png"
+          leftImage="/donations/left.webp"
+          rightImage="/donations/right.webp"
         >
           <h1
             className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white"
