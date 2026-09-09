@@ -160,13 +160,23 @@ export default function TempleInfoPage() {
                   </h2>
 
                   {section.copy && (
-                    <p
-                      className={`text-base sm:text-lg md:text-xl leading-relaxed ${textColor} ${
-                        isEven ? "text-gray-700" : "text-white/90"
-                      }`}
-                    >
-                      {section.copy}
-                    </p>
+                    <div className="space-y-4">
+                      {(Array.isArray(section.copy)
+                        ? section.copy
+                        : typeof section.copy === "string"
+                        ? section.copy.split("\n\n")
+                        : [section.copy]
+                      ).map((paragraph, pIdx) => (
+                        <p
+                          key={pIdx}
+                          className={`text-base sm:text-lg md:text-xl leading-relaxed ${textColor} ${
+                            isEven ? "text-gray-700" : "text-white/90"
+                          }`}
+                        >
+                          {paragraph}
+                        </p>
+                      ))}
+                    </div>
                   )}
 
                   {section.timings && (

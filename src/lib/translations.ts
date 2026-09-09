@@ -187,7 +187,25 @@ export const translations = {
       subtitle: "Visit us and experience the divine presence",
       section1: {
         heading: "About the Temple",
-        copy: "The temple is dedicated to Shirdi Sai Baba, a revered spiritual master whose teachings emphasize faith and patience. Devotees visit this sacred place to seek blessings, peace, and spiritual strength.",
+        copy: `The very arrival of Baba at this place is nothing short of a miracle. This is the temple where Sai Baba Himself wished to come and reside. Sai Baba appeared in the dream of his devotee, Advocate Ramesh, and said, "I wish to stay with you." However, Ramesh initially dismissed it as an ordinary dream.
+
+A few days later, one of Advocate Ramesh's friends called him and informed him that a beautifully crafted idol of Sai Baba, originally intended for a temple in Tirunelveli, could not be transported due to certain reasons and was currently kept in Mahabalipuram. The friend requested Ramesh to take care of the idol for some time.
+
+At that moment, Advocate Ramesh realized that his dream was not an ordinary one—it was Baba's divine command.
+
+He then established a pedestal for Sai Baba in his own cattle shed at Mamandoor, near Chengalpattu, and installed the idol there. For several years, he performed regular prayers and worship, treating Baba as a member of his own family.
+
+Yet, one question constantly lingered in his mind: "If the temple in Tirunelveli eventually asks for the idol back, I would have to send Baba there, wouldn't I?" As the days passed, this question continued to trouble him.
+
+One Thursday, he surrendered the question to Baba and prayed, "You gave me this question; please give me the answer as well."
+
+The very next morning, he received a phone call from the same friend. The friend informed him that the construction of the Tirunelveli temple had been indefinitely postponed due to certain reasons and that he could permanently keep the idol of Sai Baba. Advocate Ramesh felt that Baba Himself had answered his prayer.
+
+A few months later, he built a beautiful temple for Sai Baba, modeled after the sacred shrine at Shirdi, and ceremonially installed Baba there.
+
+Sai Baba, who had performed countless miracles in Advocate Ramesh's life, chose to establish this temple so that He could bless and bring prosperity to all the people living in the surrounding region.
+
+Even today, devotees believe that Baba's divine presence continues to shower grace, protection, and blessings upon everyone who visits this sacred temple`,
       },
       section2: {
         heading: "Temple Timings",
