@@ -81,8 +81,8 @@ export default function AartiBhajansPage() {
         }}
       >
         <HeroWithSideImages
-          leftImage="/aarti-bhajans/left.jpg"
-          rightImage="/aarti-bhajans/right.jpg"
+          leftImage="/aarti-bhajans/left.webp"
+          rightImage="/aarti-bhajans/right.webp"
         >
           {language === "en" && (
             <div className="mb-6 inline-flex items-center justify-center">
