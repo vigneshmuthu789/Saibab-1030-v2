@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { GRADIENTS } from "@/lib/constants";
 import { TempleMap } from "@/components/temple-map";
 import { useLanguage } from "@/contexts/language-context";
@@ -21,14 +22,17 @@ export default function TempleInfoPage() {
   const { language } = useLanguage();
   const t = translations[language].templeInfo;
   const contactT = translations[language].contact;
+  const [section1Expanded, setSection1Expanded] = useState(false);
 
   const sections = [
     {
       id: 1,
       heading: t.section1.heading,
-      copy: t.section1.copy,
       layout: "left-image",
       image: TEMPLE_IMAGES[2],
+      expandable: true,
+      copyPreview: t.section1.copyPreview,
+      expandedParagraphs: t.section1.expandedParagraphs,
     },
     {
       id: 2,
@@ -159,7 +163,30 @@ export default function TempleInfoPage() {
                     {section.heading}
                   </h2>
 
-                  {section.copy && (
+                  {section.expandable ? (
+                    <div className={`text-base sm:text-lg md:text-xl leading-relaxed ${textColor} ${
+                      isEven ? "text-gray-700" : "text-white/90"
+                    }`}>
+                      <p>{section.copyPreview}</p>
+                      {section1Expanded && (
+                        <div className="mt-4 space-y-4">
+                          {section.expandedParagraphs?.map((paragraph, pIdx) => (
+                            <p key={pIdx}>{paragraph}</p>
+                          ))}
+                        </div>
+                      )}
+                      <button
+                        type="button"
+                        onClick={() => setSection1Expanded((expanded) => !expanded)}
+                        className={`mt-4 text-sm font-semibold underline underline-offset-4 cursor-pointer transition-opacity hover:opacity-80 block ${
+                          isEven ? "text-divine-saffron" : "text-white"
+                        }`}
+                        aria-expanded={section1Expanded}
+                      >
+                        {section1Expanded ? t.readLess : t.readMore}
+                      </button>
+                    </div>
+                  ) : section.copy ? (
                     <div className="space-y-4">
                       {(Array.isArray(section.copy)
                         ? section.copy
@@ -177,7 +204,7 @@ export default function TempleInfoPage() {
                         </p>
                       ))}
                     </div>
-                  )}
+                  ) : null}
 
                   {section.timings && (
                     <div className="w-full">

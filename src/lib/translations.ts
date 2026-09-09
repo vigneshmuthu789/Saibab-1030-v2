@@ -183,27 +183,23 @@ export const translations = {
     templeInfo: {
       title: "Temple Information",
       subtitle: "Visit us and experience the divine presence",
+      readMore: "Read more",
+      readLess: "Read less",
       section1: {
         heading: "About the Temple",
-        copy: `The very arrival of Baba at this place is nothing short of a miracle. This is the temple where Sai Baba Himself wished to come and reside. Sai Baba appeared in the dream of his devotee, Advocate Ramesh, and said, "I wish to stay with you." However, Ramesh initially dismissed it as an ordinary dream.
-
-A few days later, one of Advocate Ramesh's friends called him and informed him that a beautifully crafted idol of Sai Baba, originally intended for a temple in Tirunelveli, could not be transported due to certain reasons and was currently kept in Mahabalipuram. The friend requested Ramesh to take care of the idol for some time.
-
-At that moment, Advocate Ramesh realized that his dream was not an ordinary one—it was Baba's divine command.
-
-He then established a pedestal for Sai Baba in his own cattle shed at Mamandoor, near Chengalpattu, and installed the idol there. For several years, he performed regular prayers and worship, treating Baba as a member of his own family.
-
-Yet, one question constantly lingered in his mind: "If the temple in Tirunelveli eventually asks for the idol back, I would have to send Baba there, wouldn't I?" As the days passed, this question continued to trouble him.
-
-One Thursday, he surrendered the question to Baba and prayed, "You gave me this question; please give me the answer as well."
-
-The very next morning, he received a phone call from the same friend. The friend informed him that the construction of the Tirunelveli temple had been indefinitely postponed due to certain reasons and that he could permanently keep the idol of Sai Baba. Advocate Ramesh felt that Baba Himself had answered his prayer.
-
-A few months later, he built a beautiful temple for Sai Baba, modeled after the sacred shrine at Shirdi, and ceremonially installed Baba there.
-
-Sai Baba, who had performed countless miracles in Advocate Ramesh's life, chose to establish this temple so that He could bless and bring prosperity to all the people living in the surrounding region.
-
-Even today, devotees believe that Baba's divine presence continues to shower grace, protection, and blessings upon everyone who visits this sacred temple`,
+        copyPreview:
+          "The very arrival of Baba at this place is nothing short of a miracle. This is the temple where Sai Baba Himself wished to come and reside. Sai Baba appeared in the dream of his devotee, Advocate Ramesh, and said, \"I wish to stay with you.\" However, Ramesh initially dismissed it as an ordinary dream.",
+        expandedParagraphs: [
+          "A few days later, one of Advocate Ramesh's friends called him and informed him that a beautifully crafted idol of Sai Baba, originally intended for a temple in Tirunelveli, could not be transported due to certain reasons and was currently kept in Mahabalipuram. The friend requested Ramesh to take care of the idol for some time.",
+          "At that moment, Advocate Ramesh realized that his dream was not an ordinary one—it was Baba's divine command.",
+          "He then established a pedestal for Sai Baba in his own cattle shed at Mamandoor, near Chengalpattu, and installed the idol there. For several years, he performed regular prayers and worship, treating Baba as a member of his own family.",
+          "Yet, one question constantly lingered in his mind: \"If the temple in Tirunelveli eventually asks for the idol back, I would have to send Baba there, wouldn't I?\" As the days passed, this question continued to trouble him.",
+          "One Thursday, he surrendered the question to Baba and prayed, \"You gave me this question; please give me the answer as well.\"",
+          "The very next morning, he received a phone call from the same friend. The friend informed him that the construction of the Tirunelveli temple had been indefinitely postponed due to certain reasons and that he could permanently keep the idol of Sai Baba. Advocate Ramesh felt that Baba Himself had answered his prayer.",
+          "A few months later, he built a beautiful temple for Sai Baba, modeled after the sacred shrine at Shirdi, and ceremonially installed Baba there.",
+          "Sai Baba, who had performed countless miracles in Advocate Ramesh's life, chose to establish this temple so that He could bless and bring prosperity to all the people living in the surrounding region.",
+          "Even today, devotees believe that Baba's divine presence continues to shower grace, protection, and blessings upon everyone who visits this sacred temple",
+        ],
       },
       section2: {
         heading: "Temple Timings",
@@ -853,24 +849,20 @@ Even today, devotees believe that Baba's divine presence continues to shower gra
     templeInfo: {
       title: "கோயில் தகவல்",
       subtitle: "எங்களைப் பார்வையிட்டு தெய்வீக இருப்பை அனுபவிக்கவும்",
+      readMore: "மேலும் படிக்க",
+      readLess: "குறைவாக படிக்க",
       section1: {
         heading: "கோயில் பற்றி",
-        copy: `இந்த இடத்துக்கு பாபா வந்ததே ஒரு அற்புத நிகழ்வு தான்..!
-
-பாபாவே ஆசைப்பட்டு வந்து அமர்ந்த கோவில் தான் இது..!
-
-சாய் பாபாவின் பக்தரான Advocat Ramesh அவர்களின் கனவில் வந்த சாய் பாபா நான் உன்னோட இருக்க விரும்புகின்றேன் என்று கூற.., சாதாரன கனவு போல என்று அவர் நினைத்துக்கொண்டார்..!
-
-அன்றில் இருந்து சில நாட்கள் கழித்து advocate ரமேஷ் அவர்களின் நண்பர் ஒருவர் அவரை தொலைபேசி மூலம் அழைத்து ‘ திருநெல்வேலியில் ஒரு கோவிலுக்கான வடிவமைக்கப்பட்ட சாய் பாபாவின் சிலை, சில காரணங்களால் எடுத்து செல்ல முடியாமல் மாமல்லபுரத்தில் இருப்பதாங்கவும் அந்த சிலையினை சிறிது காலம் தன்னை பார்த்துக்கொள்ளுமாறு கேட்க இவரும் (Advocate Ramesh) வந்தது வெரும் கனவு இல்லை இது பாபாவின் கட்டளை என்பதை உணர்ந்தார்..! பின்னர் செங்கல்பட்டு மாமண்டூரில் இருக்கும் தன்னுடைய சொந்த மாட்டு தொழுவத்தில் பாபாவுக்கு என ஒரு பீடம் அமைத்து அங்கே பாபாவை அமர்த்தி சில ஆண்டுகள் தொடர்ந்து பூஜை செய்து வழிப்பாடு செய்யவும், பாபாவை தன்னுடையவராக எண்ணினார்..ஆனாலும் மனதில் ஒரு கேள்வி, என்றாயினும் பாபாவை திருநெல்வேலி கோவிலில் இருந்து கேட்டால் அனுப்பிதானே வைக்க வேண்டும்..!
-அவருடைய நாட்கள் வேகமாக ஓட அந்த கேள்வியும் அவரை துரத்திக்கொண்டே தான் இருந்தது…!
-
-ஒரு வியாழக்கிழமையண்டு பாபாவிடமே கேள்வியினை கொடுத்த நீங்களே பதிலையும் தாருங்கள் என்றார்.. அடுத்த நாள் காலையில் Advocat Ramesh அவர்களுக்கு ஒர் அமைப்பு.அந்த நண்பர் தான் அவரை மீண்டும் அழைத்தார்..!
-
-அழைத்து திருநெல்வேலி கோவில் பணி சிலகாரணங்களால் இப்போது நடைபெறவில்லை, பாபாவின் உருவச்சிலையை நீங்களே வைத்துக்கொள்ளுமாரு கூற, இவரின் கேள்விக்கு பாபாவே பதில் கூறியதாக எண்ணினார்..!
-
-பின்னர் சில மாதங்கள் கழித்து சாய் பாபாவுக்காக ஷிரடியில் இருப்பது போலவே ஒரு அழகிய ஆலயத்தினை கட்டி முடிந்து அந்த ஆலயத்தில் பாபாவை அமரவும் வைத்தார்..!
-
-தன்னுடைய வாழ்க்கையில் பல அதிசயங்களை செய்த சாய்பாபா அந்த பகுதியினை சுற்றி இருக்கும் அனைவருக்கும் நன்மை செய்யவே இந்த கோவிலையும் எழுப்புயுள்ளார்..!`,
+        copyPreview:
+          "இந்த இடத்துக்கு பாபா வந்ததே ஒரு அற்புத நிகழ்வு தான்..! பாபாவே ஆசைப்பட்டு வந்து அமர்ந்த கோவில் தான் இது..! சாய் பாபாவின் பக்தரான Advocat Ramesh அவர்களின் கனவில் வந்த சாய் பாபா நான் உன்னோட இருக்க விரும்புகின்றேன் என்று கூற.., சாதாரன கனவு போல என்று அவர் நினைத்துக்கொண்டார்..!",
+        expandedParagraphs: [
+          "அன்றில் இருந்து சில நாட்கள் கழித்து advocate ரமேஷ் அவர்களின் நண்பர் ஒருவர் அவரை தொலைபேசி மூலம் அழைத்து ‘ திருநெல்வேலியில் ஒரு கோவிலுக்கான வடிவமைக்கப்பட்ட சாய் பாபாவின் சிலை, சில காரணங்களால் எடுத்து செல்ல முடியாமல் மாமல்லபுரத்தில் இருப்பதாங்கவும் அந்த சிலையினை சிறிது காலம் தன்னை பார்த்துக்கொள்ளுமாறு கேட்க இவரும் (Advocate Ramesh) வந்தது வெரும் கனவு இல்லை இது பாபாவின் கட்டளை என்பதை உணர்ந்தார்..!",
+          "பின்னர் செங்கல்பட்டு மாமண்டூரில் இருக்கும் தன்னுடைய சொந்த மாட்டு தொழுவத்தில் பாபாவுக்கு என ஒரு பீடம் அமைத்து அங்கே பாபாவை அமர்த்தி சில ஆண்டுகள் தொடர்ந்து பூஜை செய்து வழிப்பாடு செய்யவும், பாபாவை தன்னுடையவராக எண்ணினார்..ஆனாலும் மனதில் ஒரு கேள்வி, என்றாயினும் பாபாவை திருநெல்வேலி கோவிலில் இருந்து கேட்டால் அனுப்பிதானே வைக்க வேண்டும்..! அவருடைய நாட்கள் வேகமாக ஓட அந்த கேள்வியும் அவரை துரத்திக்கொண்டே தான் இருந்தது…!",
+          "ஒரு வியாழக்கிழமையண்டு பாபாவிடமே கேள்வியினை கொடுத்த நீங்களே பதிலையும் தாருங்கள் என்றார்.. அடுத்த நாள் காலையில் Advocat Ramesh அவர்களுக்கு ஒர் அமைப்பு.அந்த நண்பர் தான் அவரை மீண்டும் அழைத்தார்..!",
+          "அழைத்து திருநெல்வேலி கோவில் பணி சிலகாரணங்களால் இப்போது நடைபெறவில்லை, பாபாவின் உருவச்சிலையை நீங்களே வைத்துக்கொள்ளுமாரு கூற, இவரின் கேள்விக்கு பாபாவே பதில் கூறியதாக எண்ணினார்..!",
+          "பின்னர் சில மாதங்கள் கழித்து சாய் பாபாவுக்காக ஷிரடியில் இருப்பது போலவே ஒரு அழகிய ஆலயத்தினை கட்டி முடிந்து அந்த ஆலயத்தில் பாபாவை அமரவும் வைத்தார்..!",
+          "தன்னுடைய வாழ்க்கையில் பல அதிசயங்களை செய்த சாய்பாபா அந்த பகுதியினை சுற்றி இருக்கும் அனைவருக்கும் நன்மை செய்யவே இந்த கோவிலையும் எழுப்புயுள்ளார்..!",
+        ],
       },
       section2: {
         heading: "கோயில் நேரங்கள்",
