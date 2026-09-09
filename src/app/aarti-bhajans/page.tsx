@@ -80,7 +80,10 @@ export default function AartiBhajansPage() {
           background: GRADIENTS.dark,
         }}
       >
-        <HeroWithSideImages>
+        <HeroWithSideImages
+          leftImage="/aarti-bhajans/left.jpg"
+          rightImage="/aarti-bhajans/right.jpg"
+        >
           {language === "en" && (
             <div className="mb-6 inline-flex items-center justify-center">
               <Music className="w-12 h-12 md:w-16 md:h-16 text-white mb-4" />

@@ -8,8 +8,8 @@ import { HeroWithSideImages } from "@/components/hero-side-images";
 import { Heart, BookOpen, Music, Sparkles, Play, ArrowRight, Flame, FileText } from "lucide-react";
 
 const DEVOTION_HERO_IMAGES = {
-  left: "/devotion/Devotion%20to%20Sai%20Baba%20Right.webp",
-  right: "/devotion/Devotion%20to%20Sai%20Baba%20Left.webp",
+  left: "/devotion/left.png",
+  right: "/devotion/right.png",
 } as const;
 
 export default function DevotionPage() {

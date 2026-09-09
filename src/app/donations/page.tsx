@@ -68,7 +68,10 @@ export default function DonationsPage() {
           background: GRADIENTS.dark,
         }}
       >
-        <HeroWithSideImages>
+        <HeroWithSideImages
+          leftImage="/donations/left.jpg"
+          rightImage="/donations/right.png"
+        >
           <h1
             className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white"
             style={{
