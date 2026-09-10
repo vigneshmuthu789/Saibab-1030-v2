@@ -38,6 +38,7 @@ export default function GalleryPage() {
   const videoItems = [
     { id: 1, title: t.videos.templeMoments, category: "templeShirdi", videoId: "jhLeY3a08QM" },
     { id: 2, title: t.videos.festivalCelebrations, category: "festivals", videoId: "gjTrxwkoneg" },
+    { id: 3, title: t.videos.aartiRecordings, category: "aartiRituals", videoId: "MuCGufUgOVQ" },
   ];
 
   const filteredItems = activeFilter === "all" 
@@ -179,7 +180,7 @@ export default function GalleryPage() {
               {t.videos.description}
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {videoItems.map((video) => (
                 <div
                   key={video.id}
