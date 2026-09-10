@@ -18,6 +18,12 @@ const TEMPLE_IMAGES = [
   "/temple/Temple%20Info%20Image%206.webp",
 ] as const;
 
+function getParagraphs(copy: unknown): string[] {
+  if (typeof copy === "string") return copy.split("\n\n");
+  if (Array.isArray(copy)) return copy.map(String);
+  return [];
+}
+
 export default function TempleInfoPage() {
   const { language } = useLanguage();
   const t = translations[language].templeInfo;
@@ -186,14 +192,9 @@ export default function TempleInfoPage() {
                         {section1Expanded ? t.readLess : t.readMore}
                       </button>
                     </div>
-                  ) : section.copy ? (
+                  ) : "copy" in section && section.copy ? (
                     <div className="space-y-4">
-                      {(Array.isArray(section.copy)
-                        ? section.copy
-                        : typeof section.copy === "string"
-                        ? section.copy.split("\n\n")
-                        : [section.copy]
-                      ).map((paragraph, pIdx) => (
+                      {getParagraphs(section.copy).map((paragraph, pIdx) => (
                         <p
                           key={pIdx}
                           className={`text-base sm:text-lg md:text-xl leading-relaxed ${textColor} ${
