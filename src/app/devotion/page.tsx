@@ -233,11 +233,11 @@ export default function DevotionPage() {
               <div className="flex-shrink-0 w-full lg:w-[30%] max-w-md mx-auto lg:mx-0">
                 <div className="relative w-full aspect-square rounded-2xl overflow-hidden shadow-lg bg-gray-200">
                   <img
-                    src="/saibaba.webp"
-                    alt="Sai Baba"
+                    src="/devotion/sai-prayanam.webp"
+                    alt="Sai Satcharitra Parayanam"
                     className="w-full h-full object-cover"
                     onError={(e) => {
-                      console.error("Image failed to load:", "/saibaba.webp");
+                      console.error("Image failed to load:", "/devotion/sai-prayanam.webp");
                       e.currentTarget.style.display = "none";
                     }}
                   />
