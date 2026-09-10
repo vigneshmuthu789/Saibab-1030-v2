@@ -46,7 +46,7 @@ export default function GoshlaPage() {
             </div>
 
             <div className="order-first w-full min-w-0 lg:order-none lg:col-span-6">
-              <Card className="border-amber-200/50 bg-white rounded-2xl px-6 py-8 text-center shadow-md backdrop-blur-sm sm:px-8 sm:py-10 md:px-12">
+              <Card className="border-amber-400/60 bg-[#ffe033] rounded-2xl px-6 py-8 text-center shadow-md backdrop-blur-sm sm:px-8 sm:py-10 md:px-12">
                 <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black leading-tight tracking-normal text-red-700 break-words [overflow-wrap:anywhere]">
                   ஸ்ரீ சந்திரசேகரேந்திர சரஸ்வதி சுவாமிகள்
                 </h1>
