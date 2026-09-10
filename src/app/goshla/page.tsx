@@ -46,11 +46,11 @@ export default function GoshlaPage() {
             </div>
 
             <div className="order-first w-full min-w-0 lg:order-none lg:col-span-6">
-              <Card className="border-amber-400/60 bg-[#ffe033] rounded-2xl px-6 py-8 text-center shadow-md backdrop-blur-sm sm:px-8 sm:py-10 md:px-12">
-                <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black leading-tight tracking-normal text-red-700 break-words [overflow-wrap:anywhere]">
+              <Card className="border-yellow-400 bg-[#fff200] rounded-2xl px-6 py-6 text-center shadow-md sm:px-8 sm:py-8 md:px-10">
+                <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black leading-tight tracking-normal text-red-700 break-words [overflow-wrap:anywhere]">
                   ஸ்ரீ சந்திரசேகரேந்திர சரஸ்வதி சுவாமிகள்
                 </h1>
-                <h2 className="mt-3 text-lg sm:text-xl md:text-2xl lg:text-3xl font-black leading-tight tracking-normal text-red-700 break-words [overflow-wrap:anywhere]">
+                <h2 className="mt-2 text-lg sm:text-xl md:text-2xl lg:text-3xl font-black leading-tight tracking-normal text-red-700 break-words [overflow-wrap:anywhere]">
                   ஸ்ரீ மஹாபெரியவா கோசாலை
                 </h2>
               </Card>
