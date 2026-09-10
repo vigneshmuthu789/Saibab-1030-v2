@@ -1,6 +1,6 @@
 "use client";
 
-import { Calendar } from "lucide-react";
+import { Calendar, MapPin } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const events = [
@@ -9,7 +9,6 @@ const events = [
     title: "Varushabhishekam",
     date: "24 January",
     location: "Temple Premises",
-    showDateIcon: false,
     description: "Join us for the sacred Varushabhishekam celebration.",
     type: "Festival",
   },
@@ -17,6 +16,7 @@ const events = [
     id: 2,
     title: "Ramanavami",
     date: "March",
+    location: "Temple Premises",
     description: "Join us for the sacred Ramanavami celebration in March.",
     type: "Festival",
   },
@@ -24,6 +24,7 @@ const events = [
     id: 3,
     title: "Chithra Pournami",
     date: "May",
+    location: "Temple Premises",
     description: "Join us for Chithra Pournami celebrations in May.",
     type: "Festival",
   },
@@ -31,6 +32,7 @@ const events = [
     id: 4,
     title: "Guru Purnima",
     date: "June",
+    location: "Temple Premises",
     description: "Join us for Guru Purnima celebrations in June.",
     type: "Festival",
   },
@@ -38,6 +40,7 @@ const events = [
     id: 5,
     title: "Navarathri",
     date: "September - October",
+    location: "Temple Premises",
     description: "Join us for Navarathri celebrations from September to October.",
     type: "Festival",
   },
@@ -45,6 +48,7 @@ const events = [
     id: 6,
     title: "Shirdi Vijayadasami",
     date: "October",
+    location: "Temple Premises",
     description: "Join us for Shirdi Vijayadasami celebrations in October.",
     type: "Festival",
   },
@@ -74,19 +78,16 @@ export function EventsList() {
               {event.description}
             </p>
 
-            {event.showDateIcon === false ? (
-              <div className="space-y-1 text-gray-700">
-                <p className="font-medium">{event.date}</p>
-                {event.location ? (
-                  <p className="font-medium">{event.location}</p>
-                ) : null}
-              </div>
-            ) : (
-              <div className="flex items-center gap-3 text-gray-700">
-                <Calendar className="w-5 h-5 text-divine-saffron" />
+            <div className="space-y-2 text-gray-700">
+              <div className="flex items-center gap-2">
+                <Calendar className="w-5 h-5 text-divine-saffron shrink-0" />
                 <span className="font-medium">{event.date}</span>
               </div>
-            )}
+              <div className="flex items-center gap-2">
+                <MapPin className="w-5 h-5 text-divine-saffron shrink-0" />
+                <span className="font-medium">{event.location}</span>
+              </div>
+            </div>
           </div>
         </Card>
       ))}
